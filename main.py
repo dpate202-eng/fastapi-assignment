@@ -4,6 +4,8 @@ from pydantic imporant BaseModel
 
 app = FastAPI()
 
+# FastAPI assignment - final version
+
 class Item(BaseModel):
     name: str
     price: float
